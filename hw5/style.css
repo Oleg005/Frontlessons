@@ -14,6 +14,7 @@
 body{
     margin: 0 auto;
     font-family: "Nunito Sans", sans-serif;
+    height: 1080px;
 }
 
 .header{
@@ -41,8 +42,8 @@ body{
     align-items: center;
     font-size: 22px;
     font-weight: 400;
-    margin-left: 18.75rem;
-    margin-right: 18.75rem;
+    margin-left: 16.75rem;
+    margin-right: 16.75rem;
 }
 
 .nav a :hover::after{
@@ -80,15 +81,17 @@ body{
 }
 
 .information{
-    margin-right: 160px;
+    margin-left: 60px;
 }
 
 .img-sec1{
-    margin-right: 200px;
+    margin-right: 80px;
 }
 
 .text{
     border-right: 1px solid var(--section-color);
+    padding-right: 10rem;
+    margin-bottom: 2rem;
 }
 
 .text1{
@@ -164,32 +167,43 @@ body{
 }
 
 .veb a{
-    margin-top: 0.6rem;
-    text-decoration: none;
+    display: block;
+    width: 2.125rem;
+    height: 2.125rem; 
+    font-size: 1rem;
     color: var(--main-color);
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    right: -10px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .veb a:hover{
     background-color: var(--decoration-color);
-    border-radius: 100px;
+    color: white;
 }
-
-
-
 
 .footer{
     height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--second-main-color);
 }
 
 .footer1{
     display: flex;
     justify-content: center;
+    padding-bottom: 3rem;
 }
 
 .img-footer{
     display: flex;
-    padding-top: 1.87rem;
+    padding-top: 3rem;
     max-width: 3.4rem;
 }
 
@@ -204,7 +218,7 @@ body{
 .text-footer{
     margin-left: 5.9rem;
     color: #FFFFFF;
-    padding-top: 1.87rem;
+    padding-top: 3rem;
 }
 
 @media screen and (max-width:1300px){
@@ -218,15 +232,19 @@ body{
     }
 
     .information{
-        margin-right: 10px;
+        margin-left: 100px;
     }
     
     .img-sec1{
-        margin-right: 100px;
+        margin-left: 200px;
     }
 
     .text{
         border-right: none;
+    }
+
+    .video-veb{
+        justify-content: center;
     }
 }
 
@@ -272,7 +290,7 @@ body{
     }
     
     .information{
-        margin: 0 auto;
+        margin-left: 150px;
     }
     
     .img-sec1{
@@ -316,9 +334,8 @@ body{
     }
     
     .video-veb{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 1.25rem;
+        justify-content: center;
+        margin-right: 180px;
     }
     
     .video a{
@@ -390,7 +407,8 @@ body{
     }
     
     .information{
-        margin: 0 auto;
+        margin-left: 75px;
+        width: 100%;
     }
     
     .img-sec1{
@@ -441,6 +459,7 @@ body{
     
     .video-veb{
         padding-top: 0.5rem;
+        justify-content: center;
     }
        
     .veb a{
