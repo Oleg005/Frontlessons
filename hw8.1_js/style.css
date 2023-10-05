@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.phone-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(7, 168, 106);
+}
+  
+input[type="text"]{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+  
+button{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+  
+.correct{
+    background-color: green;
+}
+  
+.incorrect{
+    background-color: red;
+}
